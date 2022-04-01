@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-sessions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./assets/styles/src/main.css -o  ./assets/styles/dist/main.css --watch",
+    "build":"npx tailwindcss -o ./assets/styles/dist/main.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MezianeKhalil/tailwind-sessions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MezianeKhalil/tailwind-sessions/issues"
+  },
+  "homepage": "https://github.com/MezianeKhalil/tailwind-sessions#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
